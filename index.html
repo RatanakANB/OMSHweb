@@ -3,56 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nike. Just Do It. Clone.come</title>
+  <title>VRTKD</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="../assets/css/output.css">
 </head>
 <body >
   <!-- *ANCHOR - Header -->
-  <header>
-    <custom-nav></custom-nav>
-    
-  <!--*ANCHOR -  Navbar -->
+<header>
+  <!--*ANCHOR - Navbar -->
+  <clone-nav></clone-nav>
+  <my-sidebar></my-sidebar>
+  <!--*!ANCHOR - End Navbar -->
 
-      <clone-nav></clone-nav>
-      <my-sidebar></my-sidebar>
+  <!--*ANCHOR - Cover -->
+  <section id="home" class="relative text-white">
+    <!-- Video Background -->
+    <video autoplay noncontrols muted loop class="w-full h-[675px] object-cover filter blur-sm">
+      <source src="../assets/vids/VTKD.mp4" type="video/mp4">
+    </video>
+    <!-- Transparent Color Filter -->
+    <div class="absolute inset-0 bg-gray-500 bg-opacity-50"></div>
 
-    <!--*!ANCHOR -End Navbar -->
-    <!--*ANCHOR -   Cover  -->
-    <section class=" text-white">
-      <video  autoplay noncontrols muted loop class="w-full aspect-video]">
-        <source src="../assets/vids/Nike. Just Do It. Nike.com.mp4" type="video/mp4">
-      </video>
-    </section>
-    <!--!ANCHOR -Cover  -->
-  </header>
+    <!-- Floating Glass Effect Container -->
+    <div class="absolute inset-0 flex justify-center items-center">
+      <div
+        class="bg-blue-700 bg-opacity-30 backdrop-blur-lg rounded-3xl shadow-xl text-white p-6 sm:p-8 md:p-12 flex flex-col justify-center items-center text-center w-[90%] sm:w-[80%] md:w-[70%] lg:w-[50%] overflow-hidden">
+        
+        <!-- Responsive Title -->
+        <p class="text-[28px] sm:text-[32px] md:text-[40px] font-bold pb-3 break-words">
+          VIRTUAL TAEKWONDO CLUB
+        </p>
+
+        <!-- Responsive Paragraphs -->
+        <p class="pb-1 text-[16px] sm:text-[18px] md:text-[20px] break-words">
+          Get ready to kick, punch, and fly! Welcome to VIRTUAL TAEKWONDO CLUB, the most
+        </p>
+        <p class="pb-1 text-[16px] sm:text-[18px] md:text-[20px] break-words">
+          exciting way to learn Taekwondo. Our immersive VR environment offers
+        </p>
+        <p class="pb-1 text-[16px] sm:text-[18px] md:text-[20px] break-words">
+          endless possibilities for training, from sparring with Real opponents to
+        </p>
+        <p class="pb-1 text-[16px] sm:text-[18px] md:text-[20px] break-words">
+          mastering complex forms. Join the revolution and experience the future of
+        </p>
+        <p class="pb-1 text-[16px] sm:text-[18px] md:text-[20px] break-words">
+          martial arts today!
+        </p>
+
+        <!-- Responsive Button -->
+        <div class="pt-6">
+          <button class="bg-black text-white rounded-3xl px-5 py-2 hover:bg-gray-800 text-[14px] sm:text-[16px] md:text-[18px]">
+            <a href="https://maps.app.goo.gl/cqgbVU7ypexDnyW89">Click for Location</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--*!ANCHOR - Cover -->
+</header>
   <!-- *!ANCHOR - End Header -->
 
   <!-- *ANCHOR - Main -->
   <main class="">
-    <!-- *ANCHOR - 1st section -->
-    <section class="items-center text-center py-6 font-CustomFont">
-      <p class="text-[45px] font-bold pb-3">
-        INSTANT IMPACT
-      </p>
-      <p class="pb-6">
-        Styles WNBA star Natasha Cloud may be Making her Phoenix debut in.
-      </p>
-      <div class="pb-6">
-      <button class="bg-black text-white rounded-3xl px-5 py-1">
-        Shop Natasha's Picks
-      </button>
-      <div>
-
-    </section>
-    <!-- *!ANCHOR - 1st section -->
+ 
 
     <!-- *ANCHOR - 2st section -->
 
     <!-- *!ANCHOR - 2nd section -->
 
     <!-- *ANCHOR - 3st section -->
-    <section class="max-w-full mx-auto py-15 py-5">
+    <section class="max-w-full mx-auto ">
       <div class="lg:flex text-white">
         <div>
           <card-component image-url="../assets/Images/updated/nike-just-do-it.jpeg" 
