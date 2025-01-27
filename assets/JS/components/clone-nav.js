@@ -15,19 +15,27 @@ class CloneNav extends HTMLElement {
         
         <ul class="md:flex gap-11 hidden">
           <li>
+          
             <div class="group h-[80px] pt-7 hidden lg:block"id=" hoverLink"onmouseenter="navDrop(1)" onmouseleave="navHides(-1)">
-              <a href="../public/new-feature.html" class="group-hover:text-blue-500 relative"
-                >Home</a>
+            <div class="group-hover:bg-white rounded-lg">  
+            <a href="../public/new-feature.html" class="px-1 group-hover:text-blue-500 relative">Home</a>
+</DIV>
             </div>
           </li>
           <li>
+          
             <div class="group h-[80px] pt-7" id="hoverLink" onmouseenter="navDrop(2)" onmouseleave="navHides(-2)">
-              <a href="#" class="group-hover:text-blue-500 relative">Men</a>
+              <div class="group-hover:bg-white rounded-lg">
+                <a href="#" class="group-hover:text-blue-500 relative px-1">Gallery</a>
+              </div>
             </div>
           </li>
           <li>
+          
             <div class="group h-[80px] pt-7" id="hoverLink" onmouseenter="navDrop(3)" onmouseleave="navHides(-3)">
-              <a href="../public/women.html" class="group-hover:text-blue-500 relative">Women</a>
+            <div class="group-hover:bg-white rounded-lg">  
+            <a href="../public/women.html" class="px-1 group-hover:text-blue-500 relative">Book A Schedule</a>
+            </div>
             </div>
           </li>
 
