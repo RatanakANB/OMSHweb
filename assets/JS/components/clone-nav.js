@@ -15,38 +15,34 @@ class CloneNav extends HTMLElement {
         
         <ul class="md:flex gap-11 hidden">
           <li>
-          
             <div class="group h-[80px] pt-7 hidden lg:block"id=" hoverLink"onmouseenter="navDrop(1)" onmouseleave="navHides(-1)">
-            <div class="group-hover:bg-white rounded-lg">  
-            <a href="../public/new-feature.html" class="px-1 group-hover:text-blue-500 relative">Home</a>
-</DIV>
+              <div class="group-hover:bg-white rounded-lg">  
+                <a href="#home" class="px-1 group-hover:text-blue-500 relative">Home</a>
+              </div>
             </div>
           </li>
           <li>
-          
             <div class="group h-[80px] pt-7" id="hoverLink" onmouseenter="navDrop(2)" onmouseleave="navHides(-2)">
               <div class="group-hover:bg-white rounded-lg">
-                <a href="#" class="group-hover:text-blue-500 relative px-1">Gallery</a>
+                <a href="#gallery" class="group-hover:text-blue-500 relative px-1">Gallery</a>
               </div>
             </div>
           </li>
           <li>
           
             <div class="group h-[80px] pt-7" id="hoverLink" onmouseenter="navDrop(3)" onmouseleave="navHides(-3)">
-            <div class="group-hover:bg-white rounded-lg">  
-            <a href="../public/women.html" class="px-1 group-hover:text-blue-500 relative">Book A Schedule</a>
-            </div>
+              <div class="group-hover:bg-white rounded-lg">  
+                <a href="../public/women.html" class="px-1 group-hover:text-blue-500 relative">Book A Schedule</a>
+              </div>
             </div>
           </li>
 
         </ul>
-        <div class="flex items-center gap-4">
-<div>
-          <a href="../public/index.html"><img src="../assets/Images/imgs/VRTKDLogo.png" alt="" class="w-[150px] "></a>
-        </div>
+        <div class="flex items-center gap-4 ">
+          <div class="bg-white bg-opacity-30 rounded-xl">
+            <a href="../public/index.html"><img src="../assets/Images/imgs/VRTKD01.png" alt="" class="w-[150px] "></a>
           </div>
-          
-
+        </div>
             <!--*!SECTION - Sidebar  -->
         </div>
       </div>
