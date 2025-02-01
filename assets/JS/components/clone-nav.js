@@ -32,7 +32,7 @@ class CloneNav extends HTMLElement {
           
             <div class="group h-[80px] pt-7" id="hoverLink" onmouseenter="navDrop(3)" onmouseleave="navHides(-3)">
               <div class="group-hover:bg-white rounded-lg">  
-                <a href="../public/women.html" class="px-1 group-hover:text-blue-500 relative">Book A Schedule</a>
+                <a href="#schedule" class="px-1 group-hover:text-blue-500 relative">Book A Schedule</a>
               </div>
             </div>
           </li>
