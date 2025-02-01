@@ -10,7 +10,7 @@ class CloneNav extends HTMLElement {
     <div class="max-w-[1800px] mx-auto ">
       <div class=" flex justify-between items-center">
         <div>
-          <a href="../public/index.html"><img src="../assets/Images/imgs/VRTKDLogo.png" alt="" class="w-[150px] "></a>
+          <a href="#home"><img src="../assets/Images/imgs/VRTKDLogo.png" alt="" class="w-[150px] "></a>
         </div>
         
         <ul class="md:flex gap-11 hidden">
@@ -40,7 +40,7 @@ class CloneNav extends HTMLElement {
         </ul>
         <div class="flex items-center gap-4 ">
           <div class="bg-white bg-opacity-30 rounded-xl">
-            <a href="../public/index.html"><img src="../assets/Images/imgs/VRTKD01.png" alt="" class="w-[150px] "></a>
+            <a href="#home"><img src="../assets/Images/imgs/VRTKD01.png" alt="" class="w-[150px] "></a>
           </div>
         </div>
             <!--*!SECTION - Sidebar  -->
